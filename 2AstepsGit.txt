@@ -1,0 +1,13 @@
+
+download git 
+open folder with git-bash
+
+$ git init
+$ git status
+$ git add .
+$ git status
+$ git commit -m "1st commit"
+$ git status
+$ git remote add origin "C:\Users\saksh\Desktop\wad\2agit"
+$ git push -u origin master
+$ git status

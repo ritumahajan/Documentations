@@ -1,0 +1,12 @@
+mongod
+mongo
+use dept
+db
+db.createCollection("IIIT")
+show collections
+db.IIIT.insert({name:"IT",domain:"DS"},{name:"CS",domain:"AI"})
+db.IIIT.find()
+db.IIIT.find().pretty()
+db.IIIT.insert({name:"CS",domain:"AI"})
+db.IIIT.updateOne({'name':"ETC"},{$set:{name:'CS'})
+ db.IIIT.deleteOne({'name':'ETC'});
